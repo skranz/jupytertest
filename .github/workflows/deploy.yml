@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
       - '*'
+  workflow_dispatch:  # 👈 Required for manual trigger
 
 jobs:
   build:
