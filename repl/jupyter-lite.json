@@ -1,11 +1,14 @@
-
 {
   "jupyter-config-data": {
-    "kernelSpecs": {
-      "xr": {
+    "kernelSpecs": [
+      {
         "name": "xeus-r",
-        "spec": {"argv": ["xr"], "language": "R"}
+        "spec": {
+          "argv": ["xeus-r"],
+          "language": "R",
+          "display_name": "R (Xeus)"
+        }
       }
-    }
+    ]
   }
 }
