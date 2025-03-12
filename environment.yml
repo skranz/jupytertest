@@ -1,0 +1,10 @@
+name: jupyterlite-xeus-r
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - xeus-r=2.1.0
+  - jupyterlab=4.0
+  - jupyterlite-xeus=0.3
+  - r-jsonlite
+  - r-glue
